@@ -26,7 +26,6 @@ include = [
 askama_axum = "*"
 axum-login = "*"
 derivative = "2"
-grafton-config = "*"
 rustls-pemfile = "2"
 rustls-pki-types = "1"
 serde_json = "1"
@@ -36,6 +35,9 @@ tracing = "*"
 tracing-appender = "*"
 tracing-subscriber = "*"
 url = "2"
+
+[dependencies.grafton-config]
+path = "../grafton-config"
 
 [dependencies.axum]
 version = "*"
